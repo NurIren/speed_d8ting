@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB34E7EAE109E80656DE0F51 /* Pods_speed_d8ting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B53DFB0CA8C79D720DEC29 /* Pods_speed_d8ting.framework */; };
 		CB41FBB621FBF8FD0089B7D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41FBB521FBF8FD0089B7D9 /* AppDelegate.swift */; };
 		CB41FBB821FBF8FD0089B7D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41FBB721FBF8FD0089B7D9 /* ViewController.swift */; };
 		CB41FBBB21FBF8FD0089B7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB41FBB921FBF8FD0089B7D9 /* Main.storyboard */; };
 		CB41FBBD21FBF9000089B7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB41FBBC21FBF9000089B7D9 /* Assets.xcassets */; };
 		CB41FBC021FBF9000089B7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB41FBBE21FBF9000089B7D9 /* LaunchScreen.storyboard */; };
 		CB41FBC821FBF9710089B7D9 /* DatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41FBC721FBF9710089B7D9 /* DatingViewController.swift */; };
+		CB41FBD621FCFD8F0089B7D9 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = CB41FBD521FCFD8F0089B7D9 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64B53DFB0CA8C79D720DEC29 /* Pods_speed_d8ting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speed_d8ting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B3F29E83CA384570229EE0 /* Pods-speed_d8ting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed_d8ting.release.xcconfig"; path = "Pods/Target Support Files/Pods-speed_d8ting/Pods-speed_d8ting.release.xcconfig"; sourceTree = "<group>"; };
+		A4E3E593F13AEDEFC2D7E954 /* Pods-speed_d8ting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speed_d8ting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-speed_d8ting/Pods-speed_d8ting.debug.xcconfig"; sourceTree = "<group>"; };
 		CB41FBB221FBF8FD0089B7D9 /* speed_d8ting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speed_d8ting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB41FBB521FBF8FD0089B7D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB41FBB721FBF8FD0089B7D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		CB41FBBF21FBF9000089B7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB41FBC121FBF9000089B7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB41FBC721FBF9710089B7D9 /* DatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingViewController.swift; sourceTree = "<group>"; };
+		CB41FBD521FCFD8F0089B7D9 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB34E7EAE109E80656DE0F51 /* Pods_speed_d8ting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B248FE20EC0F10FC61DB1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B53DFB0CA8C79D720DEC29 /* Pods_speed_d8ting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21E599E44BD82C75512FC1B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3E593F13AEDEFC2D7E954 /* Pods-speed_d8ting.debug.xcconfig */,
+				85B3F29E83CA384570229EE0 /* Pods-speed_d8ting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB41FBA921FBF8FD0089B7D9 = {
 			isa = PBXGroup;
 			children = (
 				CB41FBB421FBF8FD0089B7D9 /* speed_d8ting */,
 				CB41FBB321FBF8FD0089B7D9 /* Products */,
+				21E599E44BD82C75512FC1B9 /* Pods */,
+				16B248FE20EC0F10FC61DB1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +84,7 @@
 			children = (
 				CB41FBB521FBF8FD0089B7D9 /* AppDelegate.swift */,
 				CB41FBB721FBF8FD0089B7D9 /* ViewController.swift */,
+				CB41FBD521FCFD8F0089B7D9 /* tessdata */,
 				CB41FBC721FBF9710089B7D9 /* DatingViewController.swift */,
 				CB41FBB921FBF8FD0089B7D9 /* Main.storyboard */,
 				CB41FBBC21FBF9000089B7D9 /* Assets.xcassets */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB41FBC421FBF9000089B7D9 /* Build configuration list for PBXNativeTarget "speed_d8ting" */;
 			buildPhases = (
+				8350ABE6B9BB64457D42E14E /* [CP] Check Pods Manifest.lock */,
 				CB41FBAE21FBF8FD0089B7D9 /* Sources */,
 				CB41FBAF21FBF8FD0089B7D9 /* Frameworks */,
 				CB41FBB021FBF8FD0089B7D9 /* Resources */,
+				69842D0E25F7EBCBEB056C0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB41FBC021FBF9000089B7D9 /* LaunchScreen.storyboard in Resources */,
+				CB41FBD621FCFD8F0089B7D9 /* tessdata in Resources */,
 				CB41FBBD21FBF9000089B7D9 /* Assets.xcassets in Resources */,
 				CB41FBBB21FBF8FD0089B7D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69842D0E25F7EBCBEB056C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-speed_d8ting/Pods-speed_d8ting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-speed_d8ting/Pods-speed_d8ting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8350ABE6B9BB64457D42E14E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speed_d8ting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB41FBAE21FBF8FD0089B7D9 /* Sources */ = {
@@ -201,6 +270,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -262,6 +332,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -284,17 +355,19 @@
 		};
 		CB41FBC521FBF9000089B7D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E3E593F13AEDEFC2D7E954 /* Pods-speed_d8ting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVUE7H6RKQ;
+				DEVELOPMENT_TEAM = 96Y3NLX4E3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = speed_d8ting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.speed-d8ting123";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.speed-d8ting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,17 +376,19 @@
 		};
 		CB41FBC621FBF9000089B7D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B3F29E83CA384570229EE0 /* Pods-speed_d8ting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVUE7H6RKQ;
+				DEVELOPMENT_TEAM = 96Y3NLX4E3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = speed_d8ting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.speed-d8ting123";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.speed-d8ting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
