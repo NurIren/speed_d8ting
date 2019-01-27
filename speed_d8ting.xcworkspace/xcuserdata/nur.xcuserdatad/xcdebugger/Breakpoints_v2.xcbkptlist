@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "speed_d8ting/DatingViewController.swift"
+            timestampString = "570265716.347614"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DatingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "speed_d8ting.DatingViewController.TimeBox.getter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "speed_d8ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nur/Documents/MyCode/xcode/speed_d8ting/speed_d8ting/DatingViewController.swift"
+                  timestampString = "570247998.740752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "speed_d8ting.DatingViewController.TimeBox.setter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "speed_d8ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nur/Documents/MyCode/xcode/speed_d8ting/speed_d8ting/DatingViewController.swift"
+                  timestampString = "570247998.74392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "speed_d8ting.DatingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; speed_d8ting.DatingViewController"
+                  moduleName = "speed_d8ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nur/Documents/MyCode/xcode/speed_d8ting/speed_d8ting/DatingViewController.swift"
+                  timestampString = "570247998.745724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "speed_d8ting.DatingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;speed_d8ting.DatingViewController&gt;"
+                  moduleName = "speed_d8ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nur/Documents/MyCode/xcode/speed_d8ting/speed_d8ting/DatingViewController.swift"
+                  timestampString = "570247998.747596"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
